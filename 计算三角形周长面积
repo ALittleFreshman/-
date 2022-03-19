@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main()
+{
+	int a,b,c;
+	float m, g;
+	printf("输入a，b,c：\n");
+	scanf_s("%d,%d,%d",&a,&b,&c);
+	m = a + b + c;
+	g = m / 3;
+	printf("%6f,%6f", m, g);
+}
